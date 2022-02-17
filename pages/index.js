@@ -41,14 +41,14 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="w-screen gap-6 grid grid-cols-2 max-w-screen-lg">
-        <div className="col col-span-2">
+      <div className="grid grid-col-2 pt-20 gap-6 justify-center">
+        <div className="col col-span-2 justify-self-center">
           <Image src={homePic1} alt="Home Image" />
         </div>
-        <div className="col col-span-1">
+        <div className="col-span-1">
           <Image src={homePic2} alt="Home Image" />
         </div>
-        <div className="col col-span-1">
+        <div className="col-span-1">
           <Image src={homePic3} alt="Home Image" />
         </div>
       </div>
